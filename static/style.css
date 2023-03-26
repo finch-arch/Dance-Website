@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#navbar {
+    background-color: rgb(74, 86, 86);
+    padding: 14px 4px;
+    font-family: 'Secular One', sans-serif;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    color: white;
+    text-decoration: none;
+    margin: 19px 31px;
+    font-size: 23px;
+}
+
+#navbar li a:hover {
+    color: black;
+}
+
+#introSection {
+    color: white;
+    font-family: 'Alkatra', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    font-size: 43px;
+    background-color: red;
+    background: center/cover no-repeat url("/static/bg.jpg");
+}
+
+#MissionSection {
+    height: 300px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+#MissionSection h2 {
+    font-family: 'Kanit', sans-serif;
+}
+.boxes{
+    display: flex;
+}
+.card {
+    border: 2px solid black;
+    border-radius: 16px;
+    margin: 26px 50px;
+    height: 207px;
+    width: 30%;
+    text-align: center;
+}
+.card p{
+    margin-top: 6px;
+    font-family: 'Alkatra', cursive;
+}
+
+
+#sponserSection {
+    height: 300px;
+    background-color: #eadfcba1;
+}
+
+#sponserSection h2 {
+    text-align: center;
+    padding-top: 18px;
+    font-family: 'Kanit', sans-serif;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 35px;
+    padding-top: 5px;
+}
