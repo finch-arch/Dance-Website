@@ -1,0 +1,25 @@
+extends base.pug
+
+block scripts
+      script(src='/static/index.js')
+block style 
+      style 
+          include ../static/style.css
+
+block content
+     section#introSection
+      div Welcome to Vishal's Dance Academy 
+      div Eat Sleep Dance Repeat
+    
+     section#MissionSection 
+      h2 Our Mission
+      div.boxes
+           div.card
+               p Dance Perfection
+           div.card
+               p Dance the way you like 
+           div.card
+               p Expert teaching   
+     section#sponserSection 
+      h2 Our Sponsers 
+             
